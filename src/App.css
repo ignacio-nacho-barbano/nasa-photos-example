@@ -1,0 +1,27 @@
+main {
+  margin: 136px 84px;
+  display: flex;
+  flex-direction: column;
+  gap: 84px;
+}
+.card {
+  gap: 52px;
+  display: flex;
+}
+
+.card img {
+  border-radius: 20px;
+  height: 80vh;
+  flex: 1;
+  max-width: 65vw;
+  object-fit: cover;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background: gray;
+  padding: 12px 84px;
+}
